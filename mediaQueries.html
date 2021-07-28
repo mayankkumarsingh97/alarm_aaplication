@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            :root{
+                --blue:#1e90ff;
+                --white:#ffffff;
+            }
+            *{margin:0;padding:0;box-sizing: border-box;}
+            
+          .container{
+              background-color: aqua;
+          }
+       
+         @media screen and (max-width:1400px){
+             .container{
+                padding:1.4em;
+                 height: 100%;
+                 font-size: 2em;
+                 background-color:var(--blue);
+             }
+         }   
+
+
+         @media screen and (max-width:1024px){
+             .container{
+                 width: 1024;
+                 padding:1.4em;
+                 height: auto;
+                 font-size: 2em;
+                 background-color: lightseagreen;
+             }
+         }
+
+
+          @media screen and (max-width:768px){
+              .container{
+                  width: 768px;
+                  height: auto;
+                  padding:1.4em;
+                  font-size: 2em;
+                  text-transform: capitalize;
+              }
+          }
+
+          @media screen and (max-width:480px){
+              .container{
+                  padding:10px;
+                  background-color: lightblue;
+                  width: auto;
+                  height: auto;
+                  font-size: 1.2em;
+                  letter-spacing: 3px;
+                  font-family: cursive;
+                  text-shadow: 0 2px 3px #000;
+              }
+              .container header{
+                  text-align: center;
+              }
+              .container #p01{
+                   margin-top:2rem;
+              }
+          }
+        </style>
+        <body>
+            
+            <div class="container">
+             <header>
+                 welcome to linuxbymayank.com
+             </header>
+             
+             <p id="p01">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae maiores molestiae beatae ducimus tenetur, vero minus minima tempore est amet delectus officiis modi voluptas magnam aliquam a placeat necessitatibus expedita.</p>
+             <hr>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iste fugit quasi hic corrupti illum officiis consequuntur aperiam mollitia eum nesciunt quam cumque soluta doloremque, dolore excepturi! Reiciendis, perspiciatis. Harum?</p>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus sapiente, fugit ea quibusdam tenetur maxime corporis autem quasi nisi laboriosam voluptatem deserunt placeat aperiam itaque eius aspernatur recusandae numquam ducimus.</p>
+            </div>
+            
+        </body>
+    </head>
+</html>
