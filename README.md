@@ -1,2 +1,2 @@
-# myDigitalclock
-A Digital clock using HTML CSS and JS 
+
+A alarm ⏰️ app using HTML CSS and JS .
